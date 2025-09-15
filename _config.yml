@@ -1,0 +1,8 @@
+title: My Portfolio
+name: Bernardo Diesta
+email: bernardodiesta@gmail.com
+
+collections:
+  design:
+    output:
+    permalink: /:collection/:path/
