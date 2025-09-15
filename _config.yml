@@ -4,5 +4,5 @@ email: bernardodiesta@gmail.com
 
 collections:
   design:
-    output:
+    output: True
     permalink: /:collection/:path/
