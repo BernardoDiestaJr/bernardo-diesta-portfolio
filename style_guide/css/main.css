@@ -1,2 +1,179 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css?family=Lato|Lato+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Archivo');
+
+.name {
+    font-family: 'Archivo';
+    color:#000000;
+    line-height:15px;
+    font-size:64px;
+    text-align:center;
+}
+
+.brand-guideline {
+    font-family: 'Archivo';
+    color:#000000;
+    line-height:15px;
+    font-size:128px;
+    text-align:center;    
+}
+
+.name-container {
+    display:flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+}
+
+figure > img.main-logo {
+    border: 4px solid black;
+}
+
+figure > img.logotype-logo {
+    border: 4px solid black;
+}
+
+figure > img.brandmark-logo {
+    border: 4px solid black;
+}
+
+figure > img.submark-logo {
+    border: 4px solid black;
+}
+
+div.brand-container {
+    display:flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+}
+
+.brand-container-title-logotype {
+    font-family: 'Archivo';
+    color:#000000;
+    line-height:15px;
+    font-size:48px;
+    text-align:center;    
+}
+
+.brand-container-title-brandmark {
+    font-family: 'Archivo';
+    color:#000000;
+    line-height:15px;
+    font-size:48px;
+    text-align:center;    
+}
+
+.brand-container-title-submark {
+    font-family: 'Archivo';
+    color:#000000;
+    line-height:15px;
+    font-size:48px;
+    text-align:center;    
+}
+
+.colorpalette-container {
+    display:flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+
+div.brand-container-title-colorpalette {
+    font-family: 'Archivo';
+    color:#000000;
+    line-height:15px;
+    font-size:54px;
+    text-align:left;    
+}
+
+.primary-color-logo {
+    list-style-type: none;
+    display:inline-block;
+    margin-right: 40px;
+    width:380px;
+    height:230px;
+    border: 2px solid black;
+    background: #36BA98;    
+}
+
+.colorpalette-primary-name {
+    font-family: 'Archivo';
+    color:#000000;
+    line-height:15px;
+    font-size:54px;
+    list-style-type: none;
+    display:inline-block;
+    text-align:left;      
+    margin-right: 240px;
+}
+
+.secondary-color-logo {
+    list-style-type: none;
+    display:inline-block;
+    margin-right: 40px;
+    width:380px;
+    height:230px;
+    border: 2px solid black;
+    background: #B31B1B;    
+}
+
+.colorpalette-secondary-name {
+    font-family: 'Archivo';
+    color:#000000;
+    line-height:15px;
+    font-size:54px;
+    list-style-type: none;
+    display:inline-block;
+    text-align:left;      
+    margin-right: 160px;
+}
+
+.tertiary-color-logo {
+    list-style-type: none;
+    display:inline-block;
+    margin-right: 40px;
+    width:380px;
+    height:230px;
+    border: 2px solid black;
+    background: #124170;    
+}
+
+.colorpalette-tertiary-name {
+    font-family: 'Archivo';
+    color:#000000;
+    line-height:15px;
+    font-size:54px;
+    list-style-type: none;
+    display:inline-block;
+    text-align:left;      
+    margin-right: 240px;
+}
+
+.accent-color-logo {
+    list-style-type: none;
+    display:inline-block;
+    margin-right: 40px;
+    width:380px;
+    height:230px;
+    border: 2px solid black;
+    background: #EFBF04;    
+}
+
+.colorpalette-accent-name {
+    font-family: 'Archivo';
+    color:#000000;
+    line-height:15px;
+    font-size:54px;
+    list-style-type: none;
+    display:inline-block;
+    text-align:left;      
+    margin-right: 40px;
+}
+
+.brand-guideline-page {
+  position:relative;
+  width: 1920px;
+  margin:auto;
+/*   padding-top:10px;
+  padding-left:50px;
+  padding-right:25px; */
+  padding: 25px 25px 25px 25px; 
+
+}
